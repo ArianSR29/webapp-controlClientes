@@ -10,7 +10,8 @@
     <section class="c-main-login">
         <div class="c-login-form">
             <form action="<?php echo base_url();?> auth/login" method="POST">
-            <?php echo base_url(); ?>
+                
+
             </form>
         </div>
     </section>
