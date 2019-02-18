@@ -7,10 +7,13 @@ class Auth extends CI_Controller {
 		parent::__construct();
 		$this->load->model("Login_model");
 	}
+
 	public function index(){
 
-		if($this->session->userdata("login")){
-			redirect(base_url()."dashboard");
+		if ($this->session->userdata("login")){
+			// redirect(base_url()."layouts/admin/dashboard");
+			$this->load->view('layouts/admin/dashboard');
+
 		}else{
 			$this->load->view('login.php');
 		}
@@ -36,7 +39,9 @@ class Auth extends CI_Controller {
 			);
 
 			$this->session->set_userdata($data);
-			redirect(base_url()."dashboard");
+			// redirect(base_url()."layouts/admin/dashboard");
+			$this->load->view('layouts/admin/dashboard');
+
 		}
 	}
 
