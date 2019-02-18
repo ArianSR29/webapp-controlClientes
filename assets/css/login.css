@@ -1,0 +1,60 @@
+body {
+  background: url("../img/login/login-bgr.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.c-main-login {
+  position: relative;
+  height: 100vh; }
+  .c-main-login .c-login-form {
+    width: 500px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px 40px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .c-main-login .c-login-form img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50px; }
+    .c-main-login .c-login-form .mdl-textfield__input {
+      border-bottom: 1px solid #007c4f;
+      color: #007c4f;
+      text-indent: 20px; }
+    .c-main-login .c-login-form .mdl-textfield__label {
+      color: rgba(0, 124, 79, 0.5); }
+    .c-main-login .c-login-form .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+    .c-main-login .c-login-form .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+      color: #007c4f; }
+    .c-main-login .c-login-form .mdl-textfield.is-invalid .mdl-textfield__label:after {
+      background-color: #007c4f; }
+    .c-main-login .c-login-form .mdl-textfield.is-invalid .mdl-textfield__input {
+      border-color: #007c4f; }
+    .c-main-login .c-login-form .mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
+      color: #007c4f;
+      font-size: 16px; }
+    .c-main-login .c-login-form .mdl-textfield__label:after {
+      background-color: #007c4f; }
+    .c-main-login .c-login-form button {
+      width: 200px;
+      height: 35px;
+      font-size: 14px;
+      background: transparent;
+      border: solid 1px #007c4f;
+      color: #007c4f;
+      letter-spacing: 4px;
+      border-radius: 3px;
+      margin-top: 15px; }
+      .c-main-login .c-login-form button:hover {
+        -webkit-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+        background: rgba(255, 255, 255, 0.5);
+        font-weight: 700;
+        letter-spacing: 1px; }
