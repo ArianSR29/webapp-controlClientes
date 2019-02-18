@@ -16,8 +16,15 @@
 <body>
     <section class="c-main-login">
         <div class="c-login-form">
-            <form action="<?php echo base_url();?> auth/login" method="POST">
+            <form action="<?php echo base_url();?>auth/login" method="POST">
                 <img src=" <?php echo base_url();?>assets/img/login/login-bgr.jpg " alt="user-img">
+                <div class="c-message-error">
+                    <?php if($this->session->flashdata("error")): ?>
+                        <div class="c-alert">
+                            <span> <?php echo $this->session->flashdata("error")?> </span>
+                        </div>
+                    <?php endif ?>
+                </div>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <input class="mdl-textfield__input" type="text" id="tb-user" name="tb_user" required>
                     <label class="mdl-textfield__label" for="tb-user">Usuario</label>
