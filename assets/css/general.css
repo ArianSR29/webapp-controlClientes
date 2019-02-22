@@ -1,0 +1,34 @@
+header {
+  background: rgba(34, 74, 11, 0.9);
+  widows: 100%; }
+  header .s-info-user {
+    width: 100%;
+    padding: 15px 0px; }
+    header .s-info-user .__info-user {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
+      header .s-info-user .__info-user span {
+        padding: 10px 50px;
+        margin: 2px;
+        color: #e2f1d7;
+        font-size: 18px; }
+      header .s-info-user .__info-user .__cerrar-sesion {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0px 30px;
+        margin: 0px 100px; }
+        header .s-info-user .__info-user .__cerrar-sesion a {
+          text-decoration: none;
+          color: #e2f1d7;
+          font-size: 18px;
+          letter-spacing: 1px; }
+          header .s-info-user .__info-user .__cerrar-sesion a:hover {
+            color: #e24848; }

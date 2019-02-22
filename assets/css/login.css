@@ -1,0 +1,65 @@
+body {
+  background: url("../img/login/banner-bgr.jpg") center;
+  background-position: cover;
+  position: relative; }
+
+.s-formulario {
+  width: 50%;
+  margin: 0 auto;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px 30px;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
+  .s-formulario .__image-login {
+    width: 100px;
+    height: 100px;
+    background: url("../img/login/banner-bgr.jpg") center;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 50px; }
+  .s-formulario .__error_message {
+    width: 100%;
+    background: #d50000;
+    margin: 10px 0px;
+    color: #fff;
+    border-radius: 5px; }
+    .s-formulario .__error_message p {
+      padding: 5px 0px; }
+  .s-formulario button {
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    border: solid 1px #008e5a;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: #008e5a;
+    font-weight: 700; }
+    .s-formulario button:hover {
+      background: #008e5a;
+      color: #fff; }
+  .s-formulario .mdl-textfield.is-invalid .mdl-textfield__input {
+    border-color: rgba(0, 142, 90, 0.5);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .s-formulario .mdl-textfield.is-invalid .mdl-textfield__label:after {
+    background-color: #008e5a; }
+  .s-formulario .mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
+    color: #008E5A;
+    font-size: 16px; }
+  .s-formulario .mdl-textfield__input {
+    border-bottom: 1px solid rgba(0, 142, 90, 0.6); }
+  .s-formulario .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .s-formulario .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .s-formulario .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: #008e5a;
+    font-size: 12px; }
+  .s-formulario .mdl-textfield__label:after {
+    background-color: #008e5a; }

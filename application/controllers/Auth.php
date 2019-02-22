@@ -21,7 +21,6 @@ class Auth extends CI_Controller {
     public function login(){
         $username = $this->input->post('login_tb_user');
         $password = $this->input->post('login_tb_password');
-
         $res = $this->Login_model->login($username, md5($password));
 
         if (!$res) {

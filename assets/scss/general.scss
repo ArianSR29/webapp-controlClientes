@@ -1,0 +1,38 @@
+header{
+    background: rgba(34, 74, 11, 0.9);
+    widows: 100%;
+
+    .s-info-user{
+        width: 100%;
+        padding: 15px 0px;
+        
+        .__info-user{
+            display: flex;
+            justify-content: flex-end;
+            
+            span{
+                padding: 10px 50px;
+                margin: 2px;
+                color: rgb(226, 241, 215);
+                font-size: 18px;
+            }
+            .__cerrar-sesion{
+                display: flex;
+                align-items: center;
+                padding: 0px 30px;
+                margin: 0px 100px;
+
+                a{
+                    text-decoration: none;
+                    color: rgb(226, 241, 215);
+                    font-size: 18px;
+                    letter-spacing: 1px;
+
+                    &:hover{
+                        color: rgb(226, 72, 72);
+                    }
+                }
+            }
+        }
+    }
+}
