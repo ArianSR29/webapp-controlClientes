@@ -11,7 +11,6 @@ class Login_model extends CI_Model {
         $resultados = $this->db->get("tbl_usuarios");
 
         if ($resultados->num_rows() > 0 ) {
-            # code...
             return $resultados -> row();
         }else{
             return false;

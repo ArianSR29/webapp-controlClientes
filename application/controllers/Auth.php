@@ -2,15 +2,22 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth extends CI_Controller {
+
     public function __construct(){
         parent::__construct();
-
         $this->load->model('Login_model');
+    }
+
+	public function index(){
+        
+        if ($this->session->userdata('login')) {
+            redirect(base_url().'dashboard_admin');
+        }else{
+            $this->load->view('login');
+        }
 
     }
-	public function index(){
-		$this->load->view('login');
-    }
+
     public function login(){
         $username = $this->input->post('login_tb_user');
         $password = $this->input->post('login_tb_password');
@@ -18,7 +25,7 @@ class Auth extends CI_Controller {
         $res = $this->Login_model->login($username, md5($password));
 
         if (!$res) {
-            # code...
+            $this->session->set_flashdata('error', 'Usuario o contraseña incorrectos');
             redirect(base_url());
         }else{
             $data = array(
@@ -33,10 +40,14 @@ class Auth extends CI_Controller {
                 'rol'           => $res -> rol,
                 'login'         => TRUE
             );
-
+            
             $this->session->set_userdata($data);
             redirect(base_url().'dashboard_admin');
-
         }
+    }
+
+    public function logout(){
+        $this->session->sess_destroy();
+        redirect(base_url());
     }
 }
