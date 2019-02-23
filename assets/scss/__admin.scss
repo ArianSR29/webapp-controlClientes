@@ -1,0 +1,58 @@
+.s-main-usuarios-list {
+    background: #117B1E;
+    padding: 20px 0px;
+
+	.__usuarios-title {
+		width: 95%;
+		margin: 0 auto;
+		display: flex;
+		position: relative;
+		align-items: center;
+		padding: 0px 0px 20px 0px;
+
+		.__btn-agregar {
+			background: rgb(137, 241, 146);
+			padding: 10px 20px;
+			text-align: center;
+			width: 200px;
+			right: 50px;
+			position: absolute;
+			border-radius: 5px;
+			text-decoration: none;
+            font-weight: 600;
+            color: #117B1E;
+
+			&:hover {
+				background: #117B1E;
+				border: solid 2px rgb(137, 241, 146);
+				transition: all 100ms ease-in;
+				color: rgb(137, 241, 146);
+			}
+		}
+    }
+    .s-table-list{
+        background: orange;
+        width: 90%;
+        margin: 0 auto;
+
+        table{
+            width: 100%;
+            text-align: left;
+            
+            th{
+                padding: 5px 0px;
+            }
+
+            .btn-group{
+                background: red;
+
+                a{
+                    margin: 2px;
+                    background: lime;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}

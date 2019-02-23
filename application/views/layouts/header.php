@@ -13,19 +13,19 @@
 <body>
 <header>
     <section class="s-info-user">
-        <div class="__info-user">
+        <div class="__info-user monserratR">
             <span> Nombre: <?php echo $this->session->userdata("nombre")?> <?php echo $this->session->userdata("apellidos")?> </span>
                 <?php if($this->session->userdata("rol") == 1): ?>
                     <span>Sesión de Administrador</span>
                 <?php endif ?>
                 <div class="__cerrar-sesion">
-                    <a href="<?php base_url(); ?>auth/logout ">Cerrar sesión</a>
+                    <a href="<?php base_url(); ?>auth/logout">Cerrar sesión</a>
                 </div>
         </div>
     </section>
-    <nav>
+    <!-- <nav>
         <ul>
             <li><a href="http://" target="_blank" rel="noopener noreferrer">Generar Reportes</a></li>
         </ul>
-    </nav>
+    </nav> -->
 </header>

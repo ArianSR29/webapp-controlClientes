@@ -50,16 +50,19 @@ body {
   .s-formulario .mdl-textfield.is-invalid .mdl-textfield__input {
     border-color: rgba(0, 142, 90, 0.5);
     -webkit-box-shadow: none;
-    box-shadow: none; }
+    box-shadow: none;
+    font-family: 'Monserrat-Regular'; }
   .s-formulario .mdl-textfield.is-invalid .mdl-textfield__label:after {
     background-color: #008e5a; }
   .s-formulario .mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
     color: #008E5A;
-    font-size: 16px; }
+    font-size: 16px;
+    font-family: 'Monserrat-Regular'; }
   .s-formulario .mdl-textfield__input {
     border-bottom: 1px solid rgba(0, 142, 90, 0.6); }
   .s-formulario .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .s-formulario .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .s-formulario .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
     color: #008e5a;
-    font-size: 12px; }
+    font-size: 12px;
+    font-family: 'Monserrat-Regular'; }
   .s-formulario .mdl-textfield__label:after {
     background-color: #008e5a; }

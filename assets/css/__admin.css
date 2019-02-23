@@ -1,0 +1,48 @@
+.s-main-usuarios-list {
+  background: #117B1E;
+  padding: 20px 0px; }
+  .s-main-usuarios-list .__usuarios-title {
+    width: 95%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px 0px 20px 0px; }
+    .s-main-usuarios-list .__usuarios-title .__btn-agregar {
+      background: #89f192;
+      padding: 10px 20px;
+      text-align: center;
+      width: 200px;
+      right: 50px;
+      position: absolute;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #117B1E; }
+      .s-main-usuarios-list .__usuarios-title .__btn-agregar:hover {
+        background: #117B1E;
+        border: solid 2px #89f192;
+        -webkit-transition: all 100ms ease-in;
+        -o-transition: all 100ms ease-in;
+        transition: all 100ms ease-in;
+        color: #89f192; }
+  .s-main-usuarios-list .s-table-list {
+    background: orange;
+    width: 90%;
+    margin: 0 auto; }
+    .s-main-usuarios-list .s-table-list table {
+      width: 100%;
+      text-align: left; }
+      .s-main-usuarios-list .s-table-list table th {
+        padding: 5px 0px; }
+      .s-main-usuarios-list .s-table-list table .btn-group {
+        background: red; }
+        .s-main-usuarios-list .s-table-list table .btn-group a {
+          margin: 2px;
+          background: lime;
+          width: 50px;
+          height: 50px; }

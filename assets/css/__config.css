@@ -12,6 +12,18 @@ Desarrollador: Rodrigo Arenas González
     #008B0B
 
 */
+@font-face {
+  font-family: 'Monserrat-Regular';
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Monserrat-SemiBold';
+  src: url("../fonts/Montserrat-SemiBold.ttf"); }
+
+@font-face {
+  font-family: 'Monserrat-Bold';
+  src: url("../fonts/Montserrat-Bold.ttf"); }
+
 html,
 body {
   margin: 0;
@@ -42,5 +54,26 @@ img {
   height: auto;
   width: 100%; }
 
+.fs36 {
+  font-size: 36px; }
+
 .fs18 {
   font-size: 18px; }
+
+.fs14 {
+  font-size: 14px; }
+
+.fs16 {
+  font-size: 16px; }
+
+.monserratR {
+  font-family: 'Monserrat-Regular'; }
+
+.monserratB {
+  font-family: 'Monserrat-Bold'; }
+
+.monserratSB {
+  font-family: 'Monserrat-SemiBold'; }
+
+.verde146 {
+  color: #89f192; }
