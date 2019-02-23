@@ -1,6 +1,7 @@
 .s-main-usuarios-list {
-  background: #117B1E;
-  padding: 20px 0px; }
+  background: #fff;
+  padding: 20px 0px;
+  height: 100vh; }
   .s-main-usuarios-list .__usuarios-title {
     width: 95%;
     margin: 0 auto;
@@ -30,8 +31,11 @@
         -o-transition: all 100ms ease-in;
         transition: all 100ms ease-in;
         color: #89f192; }
+  .s-main-usuarios-list hr {
+    border: solid 1px #d8ecda;
+    width: 95%;
+    margin: 20px auto; }
   .s-main-usuarios-list .s-table-list {
-    background: orange;
     width: 90%;
     margin: 0 auto; }
     .s-main-usuarios-list .s-table-list table {
@@ -40,9 +44,18 @@
       .s-main-usuarios-list .s-table-list table th {
         padding: 5px 0px; }
       .s-main-usuarios-list .s-table-list table .btn-group {
-        background: red; }
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around; }
         .s-main-usuarios-list .s-table-list table .btn-group a {
           margin: 2px;
-          background: lime;
-          width: 50px;
-          height: 50px; }
+          border-radius: 5px;
+          text-decoration: none;
+          padding: 10px; }
+          .s-main-usuarios-list .s-table-list table .btn-group a:nth-child(1) {
+            background: blue; }
+          .s-main-usuarios-list .s-table-list table .btn-group a:nth-child(2) {
+            background: red; }

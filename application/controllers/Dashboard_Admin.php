@@ -9,10 +9,16 @@ class Dashboard_Admin extends CI_Controller {
             redirect(base_url());
         }
 		
+		$this->load->model('Usuarios_model');
     }
 	public function index(){
+
+		$data = array(
+			'usuarios' => $this->Usuarios_model->getUsuarios(),
+		);
+
 		$this->load->view('layouts/header');
-		$this->load->view('admin/components/list');
+		$this->load->view('admin/components/list', $data);
 		$this->load->view('layouts/footer');
 	}
 }
