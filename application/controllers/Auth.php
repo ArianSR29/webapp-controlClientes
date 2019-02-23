@@ -28,7 +28,7 @@ class Auth extends CI_Controller {
             redirect(base_url());
         }else{
             $data = array(
-                'id_usuarios'   => $res -> id_usuarios, 
+                'id_usuario'    => $res -> id_usuario, 
                 'nombre'        => $res -> nombre, 
                 'apellidos'     => $res -> apellidos, 
                 'email'         => $res -> email, 
@@ -39,10 +39,20 @@ class Auth extends CI_Controller {
                 'rol'           => $res -> rol,
                 'login'         => TRUE
             );
-            
+            // $this->session->set_userdata($data);
+            // redirect(base_url().'dashboard_admin');
+            $rol = 1;
+        }
+         if($rol == 1){
             $this->session->set_userdata($data);
             redirect(base_url().'dashboard_admin');
+            // print_r $data;
+
+        }elseif($rol == 2){
+            $this->session->set_userdata($data);
+             redirect(base_url().'dashboard_user');
         }
+
     }
 
     public function logout(){
