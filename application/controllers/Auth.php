@@ -10,18 +10,20 @@ class Auth extends CI_Controller {
 
 	public function index(){
         
-        if ($this->session->userdata('login')) {
-            redirect(base_url().'dashboard_admin');
-        }else{
-            $this->load->view('login');
-        }
-
+        // if ($this->session->userdata('login')) {
+        //     redirect(base_url().'dashboard_admin');
+        // }else{
+        // }
+        $this->load->view('login');
+        
     }
 
     public function login(){
         $username = $this->input->post('login_tb_user');
         $password = $this->input->post('login_tb_password');
-        $res = $this->Login_model->login($username, md5($password));
+        $rol = $this->input->post('tipo-usuario');
+
+        $res = $this->Login_model->login($username, md5($password), $rol);
 
         if (!$res) {
             $this->session->set_flashdata('error', 'Usuario o contraseña incorrectos');
@@ -41,7 +43,6 @@ class Auth extends CI_Controller {
             );
             // $this->session->set_userdata($data);
             // redirect(base_url().'dashboard_admin');
-            $rol = 1;
         }
          if($rol == 1){
             $this->session->set_userdata($data);
