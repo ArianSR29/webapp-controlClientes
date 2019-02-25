@@ -1,5 +1,3 @@
-<link rel="stylesheet" href=" <?php base_url();?>assets/css/__admin.css">
-
 <section class="s-main-usuarios-list">
     <div class="__usuarios-title">
         <h3 class="monserratSB fs36 verde11">Usuarios <small class="fs16">Listado</small></h3>

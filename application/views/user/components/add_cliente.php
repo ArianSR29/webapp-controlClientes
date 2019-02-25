@@ -1,9 +1,9 @@
-<div class="s-main-llamada">
-    <div class="title-llamada">
-        <h3 class="fs36 verde11 monserratSB">Llamada</h3>
+<div class="s-add-clientes">
+    <div class="title-clientes">
+        <h3 class="fs36 verde11 monserratSB">Agregar Cliente</h3>
     </div>
     <hr>
-    <div class="s-form-llamada">
+    <div class="s-form-clientes">
         <form action="" method="POST">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input class="mdl-textfield__input" type="text" id="tb-user" name="tb_user" required>
