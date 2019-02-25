@@ -32,7 +32,7 @@
                 <input class="mdl-textfield__input" type="password" id="tb-user" name="login_tb_password" required>
                 <label class="mdl-textfield__label" for="tb-user">Contraseña</label>
             </div>
-            <select name="tipo-usuario" id="">
+            <select name="tipo-usuario" id="" class="__list-rol">
                 <option value="1">Administrador</option>
                 <option value="2">Usuario</option>
             </select>

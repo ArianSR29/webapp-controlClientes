@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <title>Bienvenido : Dashboard :</title>
+    <title>Bienvenido | Administrador Dashboard</title>
 
     <link rel="stylesheet" href=" <?php base_url();?>assets/css/general.css">
     <link rel="stylesheet" href=" <?php base_url();?>assets/css/__config.css">
@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <!-- Libreria Data Tables END-->
+    <!-- Material Desing Lite INIT-->
+    <link rel="stylesheet" href=" <?php base_url();?>assets/libs/mdl/material.css">
+    <script src=" <?php base_url(); ?>assets/libs/mdl/material.js" ></script>
+    <!-- Material Desing Lite END-->
 
 </head>
 <body>

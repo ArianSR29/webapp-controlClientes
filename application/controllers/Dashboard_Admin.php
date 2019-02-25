@@ -17,8 +17,7 @@ class Dashboard_Admin extends CI_Controller {
 			'usuarios' => $this->Usuarios_model->getUsuarios(),
 		);
 
-		$this->load->view('layouts/header');
+		$this->load->view('admin/header');
 		$this->load->view('admin/components/list', $data);
-		$this->load->view('layouts/footer');
 	}
 }

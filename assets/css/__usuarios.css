@@ -1,0 +1,52 @@
+.s-main-clientes {
+  background: #fff;
+  padding: 20px 0px; }
+  .s-main-clientes .title-clientes {
+    width: 95%;
+    margin: 0 auto; }
+  .s-main-clientes hr {
+    border: solid 1px #d8ecda;
+    width: 95%;
+    margin: 20px auto; }
+  .s-main-clientes .s-form-clientes {
+    width: 70%;
+    margin: 0 auto; }
+    .s-main-clientes .s-form-clientes div:nth-child(2), .s-main-clientes .s-form-clientes div:nth-child(3) {
+      width: 49.7%;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex; }
+    .s-main-clientes .s-form-clientes .mdl-textfield.is-invalid .mdl-textfield__input {
+      border-color: rgba(0, 142, 90, 0.5);
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      font-family: 'Monserrat-Regular'; }
+    .s-main-clientes .s-form-clientes .mdl-textfield.is-invalid .mdl-textfield__label:after {
+      background-color: #008e5a; }
+    .s-main-clientes .s-form-clientes .mdl-textfield--floating-label.is-invalid .mdl-textfield__label, .s-main-clientes .s-form-clientes .mdl-textfield__label {
+      color: #008E5A;
+      font-size: 16px;
+      font-family: 'Monserrat-Regular'; }
+    .s-main-clientes .s-form-clientes .mdl-textfield__input {
+      border-bottom: 1px solid rgba(0, 142, 90, 0.6);
+      font-family: 'Monserrat-Regular'; }
+    .s-main-clientes .s-form-clientes .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .s-main-clientes .s-form-clientes .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .s-main-clientes .s-form-clientes .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+      color: #008e5a;
+      font-size: 12px;
+      font-family: 'Monserrat-Regular'; }
+    .s-main-clientes .s-form-clientes .mdl-textfield__label:after {
+      background-color: #008e5a; }
+    .s-main-clientes .s-form-clientes .__btn-guardar {
+      width: 200px;
+      height: 35px;
+      border-radius: 5px;
+      border: solid 2px rgba(0, 142, 90, 0.6);
+      background: none;
+      color: #008e5a;
+      font-weight: 600; }
+      .s-main-clientes .s-form-clientes .__btn-guardar:hover {
+        background: #008e5a;
+        color: #fff;
+        -webkit-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease; }
