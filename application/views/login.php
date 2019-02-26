@@ -25,8 +25,8 @@
         </div>
         <form action=" <?php echo base_url(); ?>auth/login " method="POST"> 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="tb-user" name="login_tb_user" required>
-                <label class="mdl-textfield__label" for="tb-user">Usuario</label>
+                <input class="mdl-textfield__input" type="text" id="tb-rpe" name="login_tb_rpe" required>
+                <label class="mdl-textfield__label" for="tb-rpe">RPE</label>
             </div>
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input class="mdl-textfield__input" type="password" id="tb-user" name="login_tb_password" required>

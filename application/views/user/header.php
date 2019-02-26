@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,8 +37,8 @@
         </div>
     </section>
     <nav>
-        <ul>
-            <li><a href="#">Quejas o Sugerencias</a></li>
+        <ul class="fs16 monserratSB">
+            <li><a href="<?php base_url(); ?>dashboard_user">Llamadas</a></li>
             <li><a href="<?php base_url(); ?>add_cliente">Clientes</a></li>
         </ul>
     </nav>

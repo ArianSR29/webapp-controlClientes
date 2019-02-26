@@ -3,14 +3,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login_model extends CI_Model {
 
-    public function login($username, $password, $rol){
+    public function login($rpe, $password, $rol){
 
-        $this->db->where("username", $username);
+        $this->db->where("RPE", $rpe);
         $this->db->where("password", $password);
         $this->db->where("rol", $rol);
-
-
-    
 
         $resultados = $this->db->get("tbl_usuarios");
 

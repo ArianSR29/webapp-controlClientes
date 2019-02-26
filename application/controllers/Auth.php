@@ -20,11 +20,11 @@ class Auth extends CI_Controller {
     }
 
     public function login(){
-        $username = $this->input->post('login_tb_user');
+        $rpe = $this->input->post('login_tb_rpe');
         $password = $this->input->post('login_tb_password');
         $rol = $this->input->post('tipo-usuario');
 
-        $res = $this->Login_model->login($username, md5($password), $rol);
+        $res = $this->Login_model->login($rpe, md5($password), $rol);
 
         if (!$res) {
             $this->session->set_flashdata('error', 'Usuario o contraseña incorrectos');
@@ -32,6 +32,7 @@ class Auth extends CI_Controller {
         }else{
             $data = array(
                 'id_usuario'    => $res -> id_usuario, 
+                'RPE'           => $res -> rpe, 
                 'nombre'        => $res -> nombre, 
                 'apellidos'     => $res -> apellidos, 
                 'email'         => $res -> email, 
