@@ -39,7 +39,7 @@
     <nav>
         <ul class="fs16 monserratSB">
             <li><a href="<?php base_url(); ?>dashboard_user">Llamadas</a></li>
-            <li><a href="<?php base_url(); ?>add_cliente">Clientes</a></li>
+            <li><a href="<?php base_url(); ?>clientes">Clientes</a></li>
         </ul>
     </nav>
 </header>

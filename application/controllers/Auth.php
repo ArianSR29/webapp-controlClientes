@@ -43,21 +43,16 @@ class Auth extends CI_Controller {
                 'rol'           => $res -> rol,
                 'login'         => TRUE
             );
-            // $this->session->set_userdata($data);
-            // redirect(base_url().'dashboard_admin');
         }
          if($rol == 1){
             $this->session->set_userdata($data);
             redirect(base_url().'dashboard_admin');
-            // print_r $data;
 
         }elseif($rol == 2){
             $this->session->set_userdata($data);
              redirect(base_url().'dashboard_user');
         }
-
     }
-
     public function logout(){
         $this->session->sess_destroy();
         redirect(base_url());

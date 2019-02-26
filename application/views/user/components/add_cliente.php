@@ -4,7 +4,7 @@
 	</div>
 	<hr>
 	<div class="s-form-clientes">
-		<form action="" method="POST">
+		<form action="<?php echo base_url();?>mantenimiento/consumibles/stock" method="POST">
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 				<input class="mdl-textfield__input" type="text" id="tb-rpu" name="tb-rpu" required>
 				<label class="mdl-textfield__label" for="tb-rpu">RPU*</label>
