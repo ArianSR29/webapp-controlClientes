@@ -31,8 +31,7 @@ class Auth extends CI_Controller {
             redirect(base_url());
         }else{
             $data = array(
-                'id_usuario'    => $res -> id_usuario, 
-                'RPE'           => $res -> rpe, 
+                'rpe'           => $res -> rpe, 
                 'nombre'        => $res -> nombre, 
                 'apellidos'     => $res -> apellidos, 
                 'email'         => $res -> email, 

@@ -8,7 +8,7 @@
         <table class="monserratR verde11" id="usuarios-table">
             <thead class="monserratSB fs18">
                 <tr>
-                    <th>#</th>
+                    <th>RPE</th>
                     <th>Nombre</th>
                     <th>Apellidos</th>
                     <th>E-mail</th>
@@ -30,7 +30,7 @@
                         }
                     ?>
                         <tr>
-                            <th> <?php echo $usuario->id_usuario; ?> </th>
+                            <th> <?php echo $usuario->rpe; ?> </th>
                             <th> <?php echo $usuario->nombre; ?> </th>
                             <th> <?php echo $usuario->apellidos; ?> </th>
                             <th> <?php echo $usuario->email; ?> </th>
