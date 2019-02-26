@@ -1,7 +1,7 @@
 <section class="s-main-usuarios-list">
     <div class="__usuarios-title">
         <h3 class="monserratSB fs36 verde11">Usuarios <small class="fs16">Listado</small></h3>
-            <a href="" class="monserratR fs14 __btn-agregar">Agregar usuario</a>
+            <a href="<?php base_url(); ?>usuarios" class="monserratR fs14 __btn-agregar">Agregar usuario</a>
     </div>
     <hr>
     <div class="s-table-list">
