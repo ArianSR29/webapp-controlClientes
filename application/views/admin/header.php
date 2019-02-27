@@ -36,9 +36,9 @@
                 </div>
         </div>
     </section>
-    <!-- <nav>
-        <ul>
-            <li><a href="http://" target="_blank" rel="noopener noreferrer">Generar Reportes</a></li>
+    <nav>
+        <ul class="fs16 monserratSB">
+            <li><a href="<?php base_url(); ?>dashboard_admin">Lista de usuarios</a></li>
         </ul>
-    </nav> -->
+    </nav>
 </header>

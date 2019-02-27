@@ -54,11 +54,12 @@
           margin: 2px;
           border-radius: 5px;
           text-decoration: none;
-          padding: 10px; }
+          padding: 5px 10px;
+          margin: 0px 5px; }
           .s-main-usuarios-list .s-table-list table .btn-group a:nth-child(1) {
-            background: blue; }
+            background: #E6BC27; }
           .s-main-usuarios-list .s-table-list table .btn-group a:nth-child(2) {
-            background: red; }
+            background: #FF0000; }
 
 .s-main-llamada {
   background: #fff;
@@ -181,3 +182,19 @@
       font-size: 12px;
       font-family: 'Monserrat-Regular';
       outline: none; }
+
+nav {
+  padding: 10px 0px; }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto; }
+    nav ul li {
+      list-style: none;
+      margin: 0px 20px; }
+      nav ul li a {
+        color: #d8ecda;
+        text-decoration: none;
+        padding: 5px 10px; }

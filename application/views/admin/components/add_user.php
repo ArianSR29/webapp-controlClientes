@@ -6,7 +6,13 @@
 	<div class="s-form-user">
 		<form action="<?php echo base_url();?>usuarios/guardarUsuario" method="POST">
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-				<input class="mdl-textfield__input" type="text" id="tb-rpe" name="tb_rpe" required>
+				<input 
+				class="mdl-textfield__input" 
+				type="number" 
+				id="tb-rpe" 
+				name="tb_rpe" 
+				pattern=[0-9]
+				required>
 				<label class="mdl-textfield__label" for="tb-rpe">RPE*</label>
 			</div>
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -18,11 +24,18 @@
 				<label class="mdl-textfield__label" for="tb-apellidos">Apellidos*</label>
 			</div>
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-				<input class="mdl-textfield__input" type="email" id="tb-email" name="tb_email" required>
+				<input 
+				class="mdl-textfield__input" type="email" id="tb-email" name="tb_email" required>
 				<label class="mdl-textfield__label" for="tb-email">Email*</label>
 			</div>
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-				<input class="mdl-textfield__input" type="text" id="tb-telefono" name="tb_telefono" required>
+				<input 
+				class="mdl-textfield__input" 
+				type="text" 
+				id="tb-telefono" 
+				name="tb_telefono" 
+				pattern=[0-9]
+				required>
 				<label class="mdl-textfield__label" for="tb-telefono">Teléfono*</label>
 			</div>
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">

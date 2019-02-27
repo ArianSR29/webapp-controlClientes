@@ -39,8 +39,8 @@
                             <th> <?php echo $rol ?> </th>
                             <th>
                                 <div class="btn-group">
-                                    <a href="">E</a>
-                                    <a href="">R</a>
+                                    <a href="<?php echo base_url(); ?>usuarios/editUsuario/<?php echo $usuario->rpe; ?>"><i class="fa fa-pencil-alt"></i></a>
+                                    <a href=""><i class="fa fa-times"></a>
                                 </div>
                             </th>
                         </tr>
