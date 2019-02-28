@@ -9,10 +9,6 @@ class Usuarios extends CI_Controller {
 	}
 
 	public function index(){
-			$data = array(
-				'usuarios' => $this->Usuarios_model->getUsuarios(),
-			);
-
         $this->load->view('admin/header');
         $this->load->view('admin/components/add_user');
 	}
@@ -52,7 +48,7 @@ class Usuarios extends CI_Controller {
 		);
 
 		$this->load->view('admin/header');
-    $this->load->view('admin/components/edit_user', $data);
+		$this->load->view('admin/components/edit_user', $data);
 	}
 
 	public function updateUsuario(){

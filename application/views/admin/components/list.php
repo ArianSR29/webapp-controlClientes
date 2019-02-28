@@ -39,7 +39,7 @@
                             <th> <?php echo $rol ?> </th>
                             <th>
                                 <div class="btn-group">
-                                    <a href="<?php echo base_url(); ?>usuarios/editUsuario/<?php echo $usuario->rpe; ?>"><i class="fa fa-pencil-alt"></i></a>
+                                    <a href="<?php echo base_url(); ?>Usuarios/editUsuario/<?php echo $usuario->rpe; ?>"><i class="fa fa-pencil-alt"></i></a>
                                     <a href=""><i class="fa fa-times"></a>
                                 </div>
                             </th>

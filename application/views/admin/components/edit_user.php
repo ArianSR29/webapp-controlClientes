@@ -1,7 +1,6 @@
-<main>
-    <section class="c-main-consumibles agregar-consumible">
+    <section class="c-main-consumibles">
         <div class="c-main-title">
-            <span>Consumibles</span>
+            <span>Usuarios</span>
             <small>Actualizar</small>
         </div>
         <div class="c-main-form">
@@ -12,7 +11,7 @@
     |       <?php endif; ?>
             <form action="<?php echo base_url();?>usuarios/updateUsuario" method="post">
 
-                <input type="hidden" value="<?php echo $usuarios->rpe ?>" name="tb_rpe">
+                <input type="text" value="<?php echo $usuarios->rpe ?>" name="tb_rpe">
 
                 <div class="c-input-group">
                     <label for="tb_nombre">Nombre</label>
@@ -44,4 +43,3 @@
             </form>
         </div>
     </section>
-</main>

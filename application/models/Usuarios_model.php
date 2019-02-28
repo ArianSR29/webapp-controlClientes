@@ -23,4 +23,7 @@ class Usuarios_model extends CI_Model {
         return $this->db->update("tbl_usuarios", $data);
 
     }
+    public function saveLlamada($data){
+        return $this->db->insert("tbl_llamadas",$data);
+    }
 }
