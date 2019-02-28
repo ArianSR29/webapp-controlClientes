@@ -15,7 +15,7 @@
                     <th>Teléfono</th>
                     <th>Username</th>
                     <th>Rol</th>
-                    <th>Opciones</th>
+                    <!-- <th>Opciones</th> -->
                 </tr>
             </thead>
             <tbody>
@@ -38,10 +38,10 @@
                             <th> <?php echo $usuario->username; ?> </th>
                             <th> <?php echo $rol ?> </th>
                             <th>
-                                <div class="btn-group">
+                                <!-- <div class="btn-group">
                                     <a href="<?php echo base_url(); ?>Usuarios/editUsuario/<?php echo $usuario->rpe; ?>"><i class="fa fa-pencil-alt"></i></a>
                                     <a href=""><i class="fa fa-times"></a>
-                                </div>
+                                </div> -->
                             </th>
                         </tr>
                     <?php endforeach ?>
